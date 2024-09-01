@@ -98,7 +98,7 @@ class _WepViewState extends State<WepView> {
                 height: 400,
                 child: WebView(
                   initialUrl:
-                      'https://lawyers.bh/mobile_app/mobile_app_api/submit.php',
+                      '',
                   javascriptMode: JavascriptMode.unrestricted,
                   onWebViewCreated: (WebViewController webViewController) {
 
