@@ -8,7 +8,7 @@ Future<List<Service_Model>> fetchservice(String categoryId) async{
     List<Service_Model> service = [];
 
     http.Response response = await  http.post(
-      Uri.parse('https://lawyers.bh/mobile_app/mobile_app_api/load_services.php'),
+      Uri.parse(''),
       headers: <String, String>{
         'Content-Type': 'application/json; charset=UTF-8',
       },
