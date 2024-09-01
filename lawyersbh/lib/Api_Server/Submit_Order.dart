@@ -8,7 +8,7 @@ class APISignup {
   Create_New_Account(
       Create_Account_Request_model requestModel) async {
     String url =
-        "https://lawyers.bh/mobile_app/submit_order.php";
+        "";
     print(requestModel.toJson());
     final response =
         await http.post(url, body: json.encode(requestModel.toJson()));
